@@ -81,18 +81,6 @@ const handleLetter = (letter) => {
     }
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
 const letterClicked = (event) => {
   const clickedLetter = event.target.textContent.toUpperCase();
   handleLetter(clickedLetter);
