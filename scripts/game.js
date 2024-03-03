@@ -8,9 +8,6 @@ const words = ['SEFACTORY', 'FSW', 'FCS', 'ASSIGNMENT', 'JAVASCRIPT', 'CSS','HTM
 let chosenWord = '';
 let displayWord = '';
 
-
-
-
 function loadGame(){
     wrongAttempts=0;
     letterElements.forEach(letter => {
